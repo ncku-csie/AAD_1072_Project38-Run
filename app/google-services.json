@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "92460011914",
+    "firebase_url": "https://runrun-95fc3.firebaseio.com",
+    "project_id": "runrun-95fc3",
+    "storage_bucket": "runrun-95fc3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:92460011914:android:92e8ca0c370b5fbc",
+        "android_client_info": {
+          "package_name": "com.example.run"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "92460011914-v1t1j065evvcs2l8u2qjdino5entvbih.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAljTS3h4T176n70FqQZGM1dFnQtAM1AVU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "92460011914-v1t1j065evvcs2l8u2qjdino5entvbih.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
