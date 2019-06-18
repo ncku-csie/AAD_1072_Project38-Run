@@ -13,12 +13,13 @@ import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
 public class BottomNavigationViewSetting {
     private static final String TAG = "BottomNavigationView";
 
-    public static void setupBottomNavigationView(BottomNavigationViewEx bottomNavigationViewEx){
+    public static void setupBottomNavigationView(BottomNavigationViewEx bottomNavigationViewEx, int id){
         Log.d(TAG, "setupBottomNavigationView: Setting up BottomNavigationView");
         bottomNavigationViewEx.enableAnimation(false);
         bottomNavigationViewEx.enableShiftingMode(false);
         bottomNavigationViewEx.enableItemShiftingMode(false);
         bottomNavigationViewEx.setTextVisibility(false);
+        bottomNavigationViewEx.setCurrentItem(id);
     }
 
     public static void enableNavigation(final Context context, final Activity callingActivity, BottomNavigationViewEx view){

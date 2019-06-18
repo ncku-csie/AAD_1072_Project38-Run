@@ -151,7 +151,7 @@ public class Map extends AppCompatActivity implements OnMapReadyCallback,
     public void setupBottomNavigationView() {
         Log.d(TAG, "setupBottomNavigationView:setting up BottomNavigationView");
         BottomNavigationViewEx bottomNavigationViewEx = findViewById(R.id.bottomNavigationViewBar);
-        BottomNavigationViewSetting.setupBottomNavigationView(bottomNavigationViewEx);
+        BottomNavigationViewSetting.setupBottomNavigationView(bottomNavigationViewEx, 1);
         BottomNavigationViewSetting.enableNavigation(mContext, this, bottomNavigationViewEx);
     }
 
@@ -542,6 +542,9 @@ public class Map extends AppCompatActivity implements OnMapReadyCallback,
         int curtime = TodayTime + time;
         TodayCount += 1;
         TodaySpeed = TodayDistance / curtime;
+        Toast.makeText(this, "" + distance + " " + curtime + " " + TodaySpeed + " " + TodayTime + " " + time  ,Toast.LENGTH_SHORT).show();
+        Log.d("hahahahahhahahaha", "" + distance + " " + curtime + " " + TodaySpeed + " " + TodayTime + " " + time);
+
 
         RunToday runToday = new RunToday(curtime, distance, TodayCount, TodaySpeed);
 

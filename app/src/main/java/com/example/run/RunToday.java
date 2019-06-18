@@ -12,7 +12,7 @@ public class RunToday {
         this.time = Time;
         this.distance = Distance;
         this.count = Count;
-        this.speed = Speed;
+        this.speed = Speed*1000;
     }
 
     public int getTime() {

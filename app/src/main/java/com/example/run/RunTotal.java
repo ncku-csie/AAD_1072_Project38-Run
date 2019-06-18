@@ -12,7 +12,7 @@ public class RunTotal {
         this.totaltime = time;
         this.totaldistance = distance;
         this.totalcount = count;
-        this.totalspeed = speed;
+        this.totalspeed = speed*1000;
     }
 
     public int getTotaltime() {

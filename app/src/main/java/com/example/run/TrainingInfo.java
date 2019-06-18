@@ -192,7 +192,7 @@ public class TrainingInfo extends AppCompatActivity {
         /*if(bottomNavigationViewEx == null) Log.d(TAG,"null");
         else Log.d(TAG,"not null");
         */
-        BottomNavigationViewSetting.setupBottomNavigationView(bottomNavigationViewEx);
+        BottomNavigationViewSetting.setupBottomNavigationView(bottomNavigationViewEx, 0);
         BottomNavigationViewSetting.enableNavigation(mContext,this,bottomNavigationViewEx);
     }
 
