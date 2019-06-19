@@ -1,5 +1,6 @@
 This app is for course Android-App-Development, NCKU.
 
+ppt: https://bit.ly/2Fj8yxw
 apk location: app/build/outputs/apk/debug
 
 Image sources:
